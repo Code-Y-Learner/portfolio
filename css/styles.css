@@ -178,6 +178,12 @@ ul {
   padding-left: 2rem;
 }
 
+ul li {
+  font-size: 21px;
+  list-style-position: inside; /* 불릿을 텍스트 내부에 위치시킵니다 */
+  text-align: left; /* 텍스트를 왼쪽 정렬합니다 */
+}
+
 ol,
 ul,
 dl {
@@ -11481,7 +11487,7 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 #skills{
-  background-color: #FFCC00;
+  background-color: #ffecb5;
 }
 
 #projects{
@@ -11505,4 +11511,38 @@ header.masthead h1, header.masthead .h1 {
 .description{
   margin: 0 0 0 0;
   height: 55px;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.badge-light {
+  color: #e6dbb9;
+  background-color: #997404;
+}
+
+
+.badge-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
 }
